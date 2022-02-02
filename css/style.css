@@ -77,12 +77,12 @@ body{
 /* css footer */
 .footer{
     position: fixed;
-    bottom: 50px;
+    bottom: 0;
     left: 0;
     right: 0;
     color: white;
     height: 100px;
-    background-color: red;
+    background-color: black;
 }
 
 .nav{
@@ -109,7 +109,7 @@ body{
 }
 
 .icon{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .testo{
@@ -118,4 +118,14 @@ body{
 
 .fa-share-square{
     color: green;
+}
+
+.end{
+    margin-right: 1rem;
+    height: 100%;
+    line-height: 100px;
+    background-color: gray;
+    color: red;
+    width: 120px;
+    text-align: center;
 }
