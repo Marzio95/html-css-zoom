@@ -12,7 +12,8 @@ body{
    background-color: black; 
 }
 
-header{
+/* css header */
+.header{
     display: flex;
     justify-content: flex-end;
 }
@@ -39,5 +40,33 @@ header{
 
 .link{
     text-decoration: none;
+    color: white;
+}
+
+/* css main */
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100vh;
+    margin: 1rem auto;
+}
+
+.card{
+    width: calc(90% / 7);
+    height: 150px;
+    position: relative;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.stato-utente{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(211, 211, 211, 0.3);
     color: white;
 }
