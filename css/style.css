@@ -49,7 +49,7 @@ body{
     flex-wrap: wrap;
     align-content: flex-start;
     width: 100%;
-    height: 100vh;
+    height: 50%;
     margin: 2rem;
     gap: 7px;
 }
@@ -72,4 +72,50 @@ body{
     background-color: rgba(211, 211, 211, 0.3);
     color: white;
     padding: 0.2em;
+}
+
+/* css footer */
+.footer{
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    color: white;
+    height: 100px;
+    background-color: red;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.col-footer{
+    display: flex;
+}
+
+.button-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 0 1rem;
+}
+
+.tasto-footer{
+   text-align: center;
+   margin-right: 0.6rem;
+}
+
+.icon{
+    font-size: 2rem;
+}
+
+.testo{
+    margin-top: 0.5rem;
+}
+
+.fa-share-square{
+    color: green;
 }
