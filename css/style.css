@@ -95,6 +95,7 @@ body{
 
 .col-footer{
     display: flex;
+    margin-left: 1rem;
 }
 
 .button-footer{
